@@ -49,9 +49,9 @@
         <item name="android:layout_height">match_parent</item>
     </style>
 
-    <style name = "quizline" parent="AppTheme">
+    <style name = "quizLine" parent="AppTheme">
         <item name = "android:layout_width">match_parent</item>
-        <item name = "android:layout_height">1dp</item>
+        <item name = "android:layout_height">2dp</item>
         <item name = "android:background">#002200</item>
 
 

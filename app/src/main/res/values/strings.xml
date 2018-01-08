@@ -5,54 +5,62 @@
     <string name="question0b">Evaluate</string>
     <string name="question0c">Reset</string>
 
-    <string name="question1">What is Capital of India:</string>
+    <string name="question1">What is capital of India:</string>
     <string name="question1a1">New Delhi</string>
     <string name="question1a2">Mumbai</string>
     <string name="question1a3">NewYork</string>
     <string name="question1a4">Khatmandu</string>
+
     <string name="question2">Is India a landlock country</string>
     <string name="question2a1">Yes</string>
     <string name="question2a2">No</string>
+
     <string name="question3">Which is NOT one of the colors in Inidan flag </string>
     <string name="question3a1">Orange</string>
     <string name="question3a2">Green</string>
     <string name="question3a3">White</string>
     <string name="question3a4">Red</string>
+
     <string name="question4">What tropical drupe is the national fruit of India</string>
     <string name="question4a1">Banana</string>
     <string name="question4a2">Mango</string>
     <string name="question4a3">Peach</string>
     <string name="question4a4">Strawberry</string>
+
     <string name="question5">Which of the famous men was from India</string>
     <string name="question5a1">Charles Lindbergh</string>
     <string name="question5a2">Mahatma Gandhi</string>
     <string name="question5a3">Carl Jung</string>
     <string name="question5a4">Martin Luther King, Jr.</string>
+
     <string name="question6">Which of these mountains, the third highest in the world, is located in India</string>
     <string name="question6a1">K2</string>
     <string name="question6a2">Kanchenjunga</string>
     <string name="question6a3">Mount Everest</string>
     <string name="question6a4">Shishapangma</string>
+
     <string name="question7">There are many UNESCO World Heritage Sites in India. Which one is a mausoleum made out of White Marble</string>
     <string name="question7a1">Taj Mahal</string>
     <string name="question7a2">Agra Fort</string>
     <string name="question7a3">Mahabodhi Temple</string>
     <string name="question7a4">Fathepur Sikri</string>
+
     <string name="question8">What is the longest river in India</string>
     <string name="question8a1">Ganges River</string>
     <string name="question8a2">Niagara River</string>
     <string name="question8a3">Uruguay River</string>
     <string name="question8a4">Padma River</string>
+
     <string name="question9">What is the name of currency used in India</string>
     <string name="question9a1">Dollar</string>
     <string name="question9a2">Rupee</string>
     <string name="question9a3">Won</string>
     <string name="question9a4">Dinar</string>
+
     <string name="question10">Indian national motto is "______ Alone Triumphs" </string>
-    <string name="question10a1">Truth</string>
-    <string name="question10a2">Power</string>
-    <string name="question10a3">Wisdom</string>
-    <string name="question10a4">Kindness</string>
+    <string name="question1a">Truth</string>
+    <string name="question1b">Truth Alone Triumphs</string>
+
     <string name="questionHelpText">Put your answer here…</string>
 </resources>
 

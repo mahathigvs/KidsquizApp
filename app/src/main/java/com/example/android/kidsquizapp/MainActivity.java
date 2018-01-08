@@ -305,38 +305,14 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
 
-        dataRadio = (RadioGroup) findViewById(R.id.radio10);
-
-        switch (dataRadio.getCheckedRadioButtonId()) {
-            case R.id.radio10a:
-                dataRadioButton = (RadioButton) findViewById(R.id.radio10a);
-                dataRadioButton.setBackgroundColor(0x2200FF00);
-                score += 1;
-                break;
-            case R.id.radio10b:
-                dataRadioButton = (RadioButton) findViewById(R.id.radio10b);
-                dataRadioButton.setBackgroundColor(0x22FF0000);
-                break;
-            case R.id.radio10c:
-                dataRadioButton = (RadioButton) findViewById(R.id.radio10c);
-                dataRadioButton.setBackgroundColor(0x22FF0000);
-                break;
-            case R.id.radio10d:
-                dataRadioButton = (RadioButton) findViewById(R.id.radio10d);
-                dataRadioButton.setBackgroundColor(0x22FF0000);
-                break;
-            default:
-                dataRadioButton = (RadioButton) findViewById(R.id.radio10d);
-                dataRadioButton.setBackgroundColor(0x22FF0000);
-                dataRadioButton = (RadioButton) findViewById(R.id.radio10c);
-                dataRadioButton.setBackgroundColor(0x22FF0000);
-                dataRadioButton = (RadioButton) findViewById(R.id.radio10b);
-                dataRadioButton.setBackgroundColor(0x22FF0000);
-                dataRadioButton = (RadioButton) findViewById(R.id.radio10a);
-                dataRadioButton.setBackgroundColor(0x22FF0000);
-                break;
+        EditText dataText = (EditText) findViewById(R.id.edit1);
+        if (dataText.getText().toString().toLowerCase().trim().contains("Truth")) {
+            score += 1;
+            dataText.setBackgroundColor(0x2200FF00);
+            dataText.setText(R.string.question1b);
+        } else {
+            dataText.setBackgroundColor(0x22FF0000);
         }
-
 
         Float scoreP = Float.parseFloat(String.valueOf(score));
         scoreP = scoreP / 10;
@@ -369,8 +345,10 @@ public class MainActivity extends AppCompatActivity {
         dataRadio.clearCheck();
         dataRadio = (RadioGroup) findViewById(R.id.radio9);
         dataRadio.clearCheck();
-        dataRadio = (RadioGroup) findViewById(R.id.radio10);
-        dataRadio.clearCheck();
+
+        dataText = (EditText) findViewById(R.id.edit1);
+        dataText.setText("");
+
 
         dataText = (EditText) findViewById(R.id.edit0);
         dataText.setText("");
@@ -454,14 +432,10 @@ public class MainActivity extends AppCompatActivity {
         dataRadioButton = (RadioButton) findViewById(R.id.radio9d);
         dataRadioButton.setBackgroundColor(0xFFFAFAFA);
 
-        dataRadioButton = (RadioButton) findViewById(R.id.radio10a);
-        dataRadioButton.setBackgroundColor(0xFFFAFAFA);
-        dataRadioButton = (RadioButton) findViewById(R.id.radio10b);
-        dataRadioButton.setBackgroundColor(0xFFFAFAFA);
-        dataRadioButton = (RadioButton) findViewById(R.id.radio10c);
-        dataRadioButton.setBackgroundColor(0xFFFAFAFA);
-        dataRadioButton = (RadioButton) findViewById(R.id.radio10d);
-        dataRadioButton.setBackgroundColor(0xFFFAFAFA);
+        dataText = (EditText) findViewById(R.id.edit1);
+        dataText.setText("");
+
+
 
         dataText.requestFocus();
     }

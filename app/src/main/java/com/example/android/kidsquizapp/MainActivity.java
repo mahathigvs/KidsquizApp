@@ -306,10 +306,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         EditText dataText = (EditText) findViewById(R.id.edit1);
-        if (dataText.getText().toString().toLowerCase().trim().contains("Truth")) {
-            score += 1;
+        if (dataText.getText().toString().toLowerCase().trim().contains("truth")) {
             dataText.setBackgroundColor(0x2200FF00);
-            dataText.setText(R.string.question1b);
+            score += 1;
+
         } else {
             dataText.setBackgroundColor(0x22FF0000);
         }
